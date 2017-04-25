@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCB01E081EAA320D006AF06B /* SKEyeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB01E071EAA320D006AF06B /* SKEyeSDK.framework */; };
+		BCD15ADA1E9CCA6C003B1DA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15AD91E9CCA6C003B1DA4 /* main.m */; };
+		BCD15AE31E9CCA6C003B1DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD15AE11E9CCA6C003B1DA4 /* Main.storyboard */; };
+		BCD15AE51E9CCA6C003B1DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD15AE41E9CCA6C003B1DA4 /* Assets.xcassets */; };
+		BCD15AE81E9CCA6C003B1DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD15AE61E9CCA6C003B1DA4 /* LaunchScreen.storyboard */; };
+		BCD15AF31E9CCA6C003B1DA4 /* SKEyeSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15AF21E9CCA6C003B1DA4 /* SKEyeSDKDemoTests.m */; };
+		BCD15AFE1E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15AFD1E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests.m */; };
+		BCD15B381E9CCACC003B1DA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15B0D1E9CCACC003B1DA4 /* AppDelegate.m */; };
+		BCD15B391E9CCACC003B1DA4 /* firstVController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15B101E9CCACC003B1DA4 /* firstVController.m */; };
+		BCD15B3A1E9CCACC003B1DA4 /* firstView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15B121E9CCACC003B1DA4 /* firstView.m */; };
+		BCD15B3B1E9CCACC003B1DA4 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15B151E9CCACC003B1DA4 /* NSArray+Log.m */; };
+		BCD15B3C1E9CCACC003B1DA4 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15B171E9CCACC003B1DA4 /* NSDictionary+Log.m */; };
+		BCD15B3D1E9CCACC003B1DA4 /* recognitionVController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15B1A1E9CCACC003B1DA4 /* recognitionVController.m */; };
+		BCD15B3E1E9CCACC003B1DA4 /* recognitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15B1C1E9CCACC003B1DA4 /* recognitionView.m */; };
+		BCD15B3F1E9CCACC003B1DA4 /* 2left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B1F1E9CCACC003B1DA4 /* 2left@2x.png */; };
+		BCD15B401E9CCACC003B1DA4 /* 2left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B201E9CCACC003B1DA4 /* 2left@3x.png */; };
+		BCD15B411E9CCACC003B1DA4 /* icon_changjianwupin_a.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B211E9CCACC003B1DA4 /* icon_changjianwupin_a.png */; };
+		BCD15B421E9CCACC003B1DA4 /* icon_changjianwupin_b.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B221E9CCACC003B1DA4 /* icon_changjianwupin_b.png */; };
+		BCD15B431E9CCACC003B1DA4 /* icon_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B231E9CCACC003B1DA4 /* icon_logo.png */; };
+		BCD15B441E9CCACC003B1DA4 /* icon_shuiguoshibie_a.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B241E9CCACC003B1DA4 /* icon_shuiguoshibie_a.png */; };
+		BCD15B451E9CCACC003B1DA4 /* icon_shuiguoshibie_b.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B251E9CCACC003B1DA4 /* icon_shuiguoshibie_b.png */; };
+		BCD15B461E9CCACC003B1DA4 /* icon_suiji_a.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B261E9CCACC003B1DA4 /* icon_suiji_a.png */; };
+		BCD15B471E9CCACC003B1DA4 /* icon_suiji_b.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B271E9CCACC003B1DA4 /* icon_suiji_b.png */; };
+		BCD15B481E9CCACC003B1DA4 /* icon_xiangce_a.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B281E9CCACC003B1DA4 /* icon_xiangce_a.png */; };
+		BCD15B491E9CCACC003B1DA4 /* icon_xiangce_b.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B291E9CCACC003B1DA4 /* icon_xiangce_b.png */; };
+		BCD15B4A1E9CCACC003B1DA4 /* icon_xiangji_a.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B2A1E9CCACC003B1DA4 /* icon_xiangji_a.png */; };
+		BCD15B4B1E9CCACC003B1DA4 /* icon_xiangji_b.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B2B1E9CCACC003B1DA4 /* icon_xiangji_b.png */; };
+		BCD15B4C1E9CCACC003B1DA4 /* luke-chesser-2347.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B2C1E9CCACC003B1DA4 /* luke-chesser-2347.jpg */; };
+		BCD15B4D1E9CCACC003B1DA4 /* fruit1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B2E1E9CCACC003B1DA4 /* fruit1.jpg */; };
+		BCD15B4E1E9CCACC003B1DA4 /* fruit2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B2F1E9CCACC003B1DA4 /* fruit2.jpg */; };
+		BCD15B4F1E9CCACC003B1DA4 /* fruit3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B301E9CCACC003B1DA4 /* fruit3.jpg */; };
+		BCD15B501E9CCACC003B1DA4 /* fruit4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B311E9CCACC003B1DA4 /* fruit4.jpg */; };
+		BCD15B511E9CCACC003B1DA4 /* fruit5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B321E9CCACC003B1DA4 /* fruit5.jpg */; };
+		BCD15B521E9CCACC003B1DA4 /* object1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B331E9CCACC003B1DA4 /* object1.jpg */; };
+		BCD15B531E9CCACC003B1DA4 /* object2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B341E9CCACC003B1DA4 /* object2.jpg */; };
+		BCD15B541E9CCACC003B1DA4 /* object3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B351E9CCACC003B1DA4 /* object3.jpg */; };
+		BCD15B551E9CCACC003B1DA4 /* object4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B361E9CCACC003B1DA4 /* object4.jpg */; };
+		BCD15B561E9CCACC003B1DA4 /* object5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCD15B371E9CCACC003B1DA4 /* object5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD15AEF1E9CCA6C003B1DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD15ACD1E9CCA6C003B1DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD15AD41E9CCA6C003B1DA4;
+			remoteInfo = SKEyeSDKDemo;
+		};
+		BCD15AFA1E9CCA6C003B1DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD15ACD1E9CCA6C003B1DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD15AD41E9CCA6C003B1DA4;
+			remoteInfo = SKEyeSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCB01E071EAA320D006AF06B /* SKEyeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKEyeSDK.framework; sourceTree = "<group>"; };
+		BCD15AD51E9CCA6C003B1DA4 /* SKEyeSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKEyeSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD15AD91E9CCA6C003B1DA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD15AE21E9CCA6C003B1DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCD15AE41E9CCA6C003B1DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD15AE71E9CCA6C003B1DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCD15AE91E9CCA6C003B1DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD15AEE1E9CCA6C003B1DA4 /* SKEyeSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKEyeSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD15AF21E9CCA6C003B1DA4 /* SKEyeSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKEyeSDKDemoTests.m; sourceTree = "<group>"; };
+		BCD15AF41E9CCA6C003B1DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD15AF91E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKEyeSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD15AFD1E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKEyeSDKDemoUITests.m; sourceTree = "<group>"; };
+		BCD15AFF1E9CCA6C003B1DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD15B0C1E9CCACC003B1DA4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCD15B0D1E9CCACC003B1DA4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCD15B0F1E9CCACC003B1DA4 /* firstVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstVController.h; sourceTree = "<group>"; };
+		BCD15B101E9CCACC003B1DA4 /* firstVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstVController.m; sourceTree = "<group>"; };
+		BCD15B111E9CCACC003B1DA4 /* firstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstView.h; sourceTree = "<group>"; };
+		BCD15B121E9CCACC003B1DA4 /* firstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstView.m; sourceTree = "<group>"; };
+		BCD15B141E9CCACC003B1DA4 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		BCD15B151E9CCACC003B1DA4 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		BCD15B161E9CCACC003B1DA4 /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		BCD15B171E9CCACC003B1DA4 /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		BCD15B191E9CCACC003B1DA4 /* recognitionVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recognitionVController.h; sourceTree = "<group>"; };
+		BCD15B1A1E9CCACC003B1DA4 /* recognitionVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recognitionVController.m; sourceTree = "<group>"; };
+		BCD15B1B1E9CCACC003B1DA4 /* recognitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recognitionView.h; sourceTree = "<group>"; };
+		BCD15B1C1E9CCACC003B1DA4 /* recognitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recognitionView.m; sourceTree = "<group>"; };
+		BCD15B1F1E9CCACC003B1DA4 /* 2left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2left@2x.png"; sourceTree = "<group>"; };
+		BCD15B201E9CCACC003B1DA4 /* 2left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2left@3x.png"; sourceTree = "<group>"; };
+		BCD15B211E9CCACC003B1DA4 /* icon_changjianwupin_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_changjianwupin_a.png; sourceTree = "<group>"; };
+		BCD15B221E9CCACC003B1DA4 /* icon_changjianwupin_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_changjianwupin_b.png; sourceTree = "<group>"; };
+		BCD15B231E9CCACC003B1DA4 /* icon_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_logo.png; sourceTree = "<group>"; };
+		BCD15B241E9CCACC003B1DA4 /* icon_shuiguoshibie_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_shuiguoshibie_a.png; sourceTree = "<group>"; };
+		BCD15B251E9CCACC003B1DA4 /* icon_shuiguoshibie_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_shuiguoshibie_b.png; sourceTree = "<group>"; };
+		BCD15B261E9CCACC003B1DA4 /* icon_suiji_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_suiji_a.png; sourceTree = "<group>"; };
+		BCD15B271E9CCACC003B1DA4 /* icon_suiji_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_suiji_b.png; sourceTree = "<group>"; };
+		BCD15B281E9CCACC003B1DA4 /* icon_xiangce_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_xiangce_a.png; sourceTree = "<group>"; };
+		BCD15B291E9CCACC003B1DA4 /* icon_xiangce_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_xiangce_b.png; sourceTree = "<group>"; };
+		BCD15B2A1E9CCACC003B1DA4 /* icon_xiangji_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_xiangji_a.png; sourceTree = "<group>"; };
+		BCD15B2B1E9CCACC003B1DA4 /* icon_xiangji_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_xiangji_b.png; sourceTree = "<group>"; };
+		BCD15B2C1E9CCACC003B1DA4 /* luke-chesser-2347.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "luke-chesser-2347.jpg"; sourceTree = "<group>"; };
+		BCD15B2E1E9CCACC003B1DA4 /* fruit1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit1.jpg; sourceTree = "<group>"; };
+		BCD15B2F1E9CCACC003B1DA4 /* fruit2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit2.jpg; sourceTree = "<group>"; };
+		BCD15B301E9CCACC003B1DA4 /* fruit3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit3.jpg; sourceTree = "<group>"; };
+		BCD15B311E9CCACC003B1DA4 /* fruit4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit4.jpg; sourceTree = "<group>"; };
+		BCD15B321E9CCACC003B1DA4 /* fruit5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit5.jpg; sourceTree = "<group>"; };
+		BCD15B331E9CCACC003B1DA4 /* object1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = object1.jpg; sourceTree = "<group>"; };
+		BCD15B341E9CCACC003B1DA4 /* object2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = object2.jpg; sourceTree = "<group>"; };
+		BCD15B351E9CCACC003B1DA4 /* object3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = object3.jpg; sourceTree = "<group>"; };
+		BCD15B361E9CCACC003B1DA4 /* object4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = object4.jpg; sourceTree = "<group>"; };
+		BCD15B371E9CCACC003B1DA4 /* object5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = object5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD15AD21E9CCA6C003B1DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB01E081EAA320D006AF06B /* SKEyeSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD15AEB1E9CCA6C003B1DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD15AF61E9CCA6C003B1DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD15ACC1E9CCA6C003B1DA4 = {
+			isa = PBXGroup;
+			children = (
+				BCD15AD71E9CCA6C003B1DA4 /* SKEyeSDKDemo */,
+				BCD15AF11E9CCA6C003B1DA4 /* SKEyeSDKDemoTests */,
+				BCD15AFC1E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests */,
+				BCD15AD61E9CCA6C003B1DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD15AD61E9CCA6C003B1DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15AD51E9CCA6C003B1DA4 /* SKEyeSDKDemo.app */,
+				BCD15AEE1E9CCA6C003B1DA4 /* SKEyeSDKDemoTests.xctest */,
+				BCD15AF91E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD15AD71E9CCA6C003B1DA4 /* SKEyeSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCB01E071EAA320D006AF06B /* SKEyeSDK.framework */,
+				BCD15B0B1E9CCACC003B1DA4 /* AppDelegate */,
+				BCD15B0E1E9CCACC003B1DA4 /* First */,
+				BCD15B181E9CCACC003B1DA4 /* Recognition */,
+				BCD15B1D1E9CCACC003B1DA4 /* Resources */,
+				BCD15AE11E9CCA6C003B1DA4 /* Main.storyboard */,
+				BCD15AE41E9CCA6C003B1DA4 /* Assets.xcassets */,
+				BCD15AE61E9CCA6C003B1DA4 /* LaunchScreen.storyboard */,
+				BCD15AE91E9CCA6C003B1DA4 /* Info.plist */,
+				BCD15B131E9CCACC003B1DA4 /* Helper */,
+				BCD15AD81E9CCA6C003B1DA4 /* Supporting Files */,
+			);
+			path = SKEyeSDKDemo;
+			sourceTree = "<group>";
+		};
+		BCD15AD81E9CCA6C003B1DA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15AD91E9CCA6C003B1DA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD15AF11E9CCA6C003B1DA4 /* SKEyeSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15AF21E9CCA6C003B1DA4 /* SKEyeSDKDemoTests.m */,
+				BCD15AF41E9CCA6C003B1DA4 /* Info.plist */,
+			);
+			path = SKEyeSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		BCD15AFC1E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15AFD1E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests.m */,
+				BCD15AFF1E9CCA6C003B1DA4 /* Info.plist */,
+			);
+			path = SKEyeSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+		BCD15B0B1E9CCACC003B1DA4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15B0C1E9CCACC003B1DA4 /* AppDelegate.h */,
+				BCD15B0D1E9CCACC003B1DA4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BCD15B0E1E9CCACC003B1DA4 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15B0F1E9CCACC003B1DA4 /* firstVController.h */,
+				BCD15B101E9CCACC003B1DA4 /* firstVController.m */,
+				BCD15B111E9CCACC003B1DA4 /* firstView.h */,
+				BCD15B121E9CCACC003B1DA4 /* firstView.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		BCD15B131E9CCACC003B1DA4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15B141E9CCACC003B1DA4 /* NSArray+Log.h */,
+				BCD15B151E9CCACC003B1DA4 /* NSArray+Log.m */,
+				BCD15B161E9CCACC003B1DA4 /* NSDictionary+Log.h */,
+				BCD15B171E9CCACC003B1DA4 /* NSDictionary+Log.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BCD15B181E9CCACC003B1DA4 /* Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15B191E9CCACC003B1DA4 /* recognitionVController.h */,
+				BCD15B1A1E9CCACC003B1DA4 /* recognitionVController.m */,
+				BCD15B1B1E9CCACC003B1DA4 /* recognitionView.h */,
+				BCD15B1C1E9CCACC003B1DA4 /* recognitionView.m */,
+			);
+			path = Recognition;
+			sourceTree = "<group>";
+		};
+		BCD15B1D1E9CCACC003B1DA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15B1E1E9CCACC003B1DA4 /* images */,
+				BCD15B2D1E9CCACC003B1DA4 /* SKSmartEyeSDK 内置图片 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BCD15B1E1E9CCACC003B1DA4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15B1F1E9CCACC003B1DA4 /* 2left@2x.png */,
+				BCD15B201E9CCACC003B1DA4 /* 2left@3x.png */,
+				BCD15B211E9CCACC003B1DA4 /* icon_changjianwupin_a.png */,
+				BCD15B221E9CCACC003B1DA4 /* icon_changjianwupin_b.png */,
+				BCD15B231E9CCACC003B1DA4 /* icon_logo.png */,
+				BCD15B241E9CCACC003B1DA4 /* icon_shuiguoshibie_a.png */,
+				BCD15B251E9CCACC003B1DA4 /* icon_shuiguoshibie_b.png */,
+				BCD15B261E9CCACC003B1DA4 /* icon_suiji_a.png */,
+				BCD15B271E9CCACC003B1DA4 /* icon_suiji_b.png */,
+				BCD15B281E9CCACC003B1DA4 /* icon_xiangce_a.png */,
+				BCD15B291E9CCACC003B1DA4 /* icon_xiangce_b.png */,
+				BCD15B2A1E9CCACC003B1DA4 /* icon_xiangji_a.png */,
+				BCD15B2B1E9CCACC003B1DA4 /* icon_xiangji_b.png */,
+				BCD15B2C1E9CCACC003B1DA4 /* luke-chesser-2347.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BCD15B2D1E9CCACC003B1DA4 /* SKSmartEyeSDK 内置图片 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD15B2E1E9CCACC003B1DA4 /* fruit1.jpg */,
+				BCD15B2F1E9CCACC003B1DA4 /* fruit2.jpg */,
+				BCD15B301E9CCACC003B1DA4 /* fruit3.jpg */,
+				BCD15B311E9CCACC003B1DA4 /* fruit4.jpg */,
+				BCD15B321E9CCACC003B1DA4 /* fruit5.jpg */,
+				BCD15B331E9CCACC003B1DA4 /* object1.jpg */,
+				BCD15B341E9CCACC003B1DA4 /* object2.jpg */,
+				BCD15B351E9CCACC003B1DA4 /* object3.jpg */,
+				BCD15B361E9CCACC003B1DA4 /* object4.jpg */,
+				BCD15B371E9CCACC003B1DA4 /* object5.jpg */,
+			);
+			path = "SKSmartEyeSDK 内置图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD15AD41E9CCA6C003B1DA4 /* SKEyeSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD15B021E9CCA6C003B1DA4 /* Build configuration list for PBXNativeTarget "SKEyeSDKDemo" */;
+			buildPhases = (
+				BCD15AD11E9CCA6C003B1DA4 /* Sources */,
+				BCD15AD21E9CCA6C003B1DA4 /* Frameworks */,
+				BCD15AD31E9CCA6C003B1DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKEyeSDKDemo;
+			productName = SKEyeSDKDemo;
+			productReference = BCD15AD51E9CCA6C003B1DA4 /* SKEyeSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD15AED1E9CCA6C003B1DA4 /* SKEyeSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD15B051E9CCA6C003B1DA4 /* Build configuration list for PBXNativeTarget "SKEyeSDKDemoTests" */;
+			buildPhases = (
+				BCD15AEA1E9CCA6C003B1DA4 /* Sources */,
+				BCD15AEB1E9CCA6C003B1DA4 /* Frameworks */,
+				BCD15AEC1E9CCA6C003B1DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD15AF01E9CCA6C003B1DA4 /* PBXTargetDependency */,
+			);
+			name = SKEyeSDKDemoTests;
+			productName = SKEyeSDKDemoTests;
+			productReference = BCD15AEE1E9CCA6C003B1DA4 /* SKEyeSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD15AF81E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD15B081E9CCA6C003B1DA4 /* Build configuration list for PBXNativeTarget "SKEyeSDKDemoUITests" */;
+			buildPhases = (
+				BCD15AF51E9CCA6C003B1DA4 /* Sources */,
+				BCD15AF61E9CCA6C003B1DA4 /* Frameworks */,
+				BCD15AF71E9CCA6C003B1DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD15AFB1E9CCA6C003B1DA4 /* PBXTargetDependency */,
+			);
+			name = SKEyeSDKDemoUITests;
+			productName = SKEyeSDKDemoUITests;
+			productReference = BCD15AF91E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD15ACD1E9CCA6C003B1DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DC;
+				TargetAttributes = {
+					BCD15AD41E9CCA6C003B1DA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TELU79PTKA;
+						ProvisioningStyle = Automatic;
+					};
+					BCD15AED1E9CCA6C003B1DA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCD15AD41E9CCA6C003B1DA4;
+					};
+					BCD15AF81E9CCA6C003B1DA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCD15AD41E9CCA6C003B1DA4;
+					};
+				};
+			};
+			buildConfigurationList = BCD15AD01E9CCA6C003B1DA4 /* Build configuration list for PBXProject "SKEyeSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD15ACC1E9CCA6C003B1DA4;
+			productRefGroup = BCD15AD61E9CCA6C003B1DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD15AD41E9CCA6C003B1DA4 /* SKEyeSDKDemo */,
+				BCD15AED1E9CCA6C003B1DA4 /* SKEyeSDKDemoTests */,
+				BCD15AF81E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD15AD31E9CCA6C003B1DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD15B471E9CCACC003B1DA4 /* icon_suiji_b.png in Resources */,
+				BCD15B501E9CCACC003B1DA4 /* fruit4.jpg in Resources */,
+				BCD15B491E9CCACC003B1DA4 /* icon_xiangce_b.png in Resources */,
+				BCD15B561E9CCACC003B1DA4 /* object5.jpg in Resources */,
+				BCD15B531E9CCACC003B1DA4 /* object2.jpg in Resources */,
+				BCD15B451E9CCACC003B1DA4 /* icon_shuiguoshibie_b.png in Resources */,
+				BCD15B4C1E9CCACC003B1DA4 /* luke-chesser-2347.jpg in Resources */,
+				BCD15B4D1E9CCACC003B1DA4 /* fruit1.jpg in Resources */,
+				BCD15B521E9CCACC003B1DA4 /* object1.jpg in Resources */,
+				BCD15B4E1E9CCACC003B1DA4 /* fruit2.jpg in Resources */,
+				BCD15AE81E9CCA6C003B1DA4 /* LaunchScreen.storyboard in Resources */,
+				BCD15B541E9CCACC003B1DA4 /* object3.jpg in Resources */,
+				BCD15B481E9CCACC003B1DA4 /* icon_xiangce_a.png in Resources */,
+				BCD15B431E9CCACC003B1DA4 /* icon_logo.png in Resources */,
+				BCD15B4A1E9CCACC003B1DA4 /* icon_xiangji_a.png in Resources */,
+				BCD15B441E9CCACC003B1DA4 /* icon_shuiguoshibie_a.png in Resources */,
+				BCD15B551E9CCACC003B1DA4 /* object4.jpg in Resources */,
+				BCD15B4B1E9CCACC003B1DA4 /* icon_xiangji_b.png in Resources */,
+				BCD15AE51E9CCA6C003B1DA4 /* Assets.xcassets in Resources */,
+				BCD15B411E9CCACC003B1DA4 /* icon_changjianwupin_a.png in Resources */,
+				BCD15B4F1E9CCACC003B1DA4 /* fruit3.jpg in Resources */,
+				BCD15B511E9CCACC003B1DA4 /* fruit5.jpg in Resources */,
+				BCD15B461E9CCACC003B1DA4 /* icon_suiji_a.png in Resources */,
+				BCD15B3F1E9CCACC003B1DA4 /* 2left@2x.png in Resources */,
+				BCD15B401E9CCACC003B1DA4 /* 2left@3x.png in Resources */,
+				BCD15AE31E9CCA6C003B1DA4 /* Main.storyboard in Resources */,
+				BCD15B421E9CCACC003B1DA4 /* icon_changjianwupin_b.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD15AEC1E9CCA6C003B1DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD15AF71E9CCA6C003B1DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD15AD11E9CCA6C003B1DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD15B3E1E9CCACC003B1DA4 /* recognitionView.m in Sources */,
+				BCD15B3B1E9CCACC003B1DA4 /* NSArray+Log.m in Sources */,
+				BCD15B3C1E9CCACC003B1DA4 /* NSDictionary+Log.m in Sources */,
+				BCD15B3D1E9CCACC003B1DA4 /* recognitionVController.m in Sources */,
+				BCD15B381E9CCACC003B1DA4 /* AppDelegate.m in Sources */,
+				BCD15B3A1E9CCACC003B1DA4 /* firstView.m in Sources */,
+				BCD15B391E9CCACC003B1DA4 /* firstVController.m in Sources */,
+				BCD15ADA1E9CCA6C003B1DA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD15AEA1E9CCA6C003B1DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD15AF31E9CCA6C003B1DA4 /* SKEyeSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD15AF51E9CCA6C003B1DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD15AFE1E9CCA6C003B1DA4 /* SKEyeSDKDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD15AF01E9CCA6C003B1DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD15AD41E9CCA6C003B1DA4 /* SKEyeSDKDemo */;
+			targetProxy = BCD15AEF1E9CCA6C003B1DA4 /* PBXContainerItemProxy */;
+		};
+		BCD15AFB1E9CCA6C003B1DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD15AD41E9CCA6C003B1DA4 /* SKEyeSDKDemo */;
+			targetProxy = BCD15AFA1E9CCA6C003B1DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD15AE11E9CCA6C003B1DA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD15AE21E9CCA6C003B1DA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCD15AE61E9CCA6C003B1DA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD15AE71E9CCA6C003B1DA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD15B001E9CCA6C003B1DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCD15B011E9CCA6C003B1DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD15B031E9CCA6C003B1DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TELU79PTKA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SKEyeSDKDemo",
+				);
+				INFOPLIST_FILE = SKEyeSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shengkai.SKEyeSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD15B041E9CCA6C003B1DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TELU79PTKA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SKEyeSDKDemo",
+				);
+				INFOPLIST_FILE = SKEyeSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shengkai.SKEyeSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD15B061E9CCA6C003B1DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKEyeSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shengkai.SKEyeSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKEyeSDKDemo.app/SKEyeSDKDemo";
+			};
+			name = Debug;
+		};
+		BCD15B071E9CCA6C003B1DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKEyeSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shengkai.SKEyeSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKEyeSDKDemo.app/SKEyeSDKDemo";
+			};
+			name = Release;
+		};
+		BCD15B091E9CCA6C003B1DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKEyeSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shengkai.SKEyeSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKEyeSDKDemo;
+			};
+			name = Debug;
+		};
+		BCD15B0A1E9CCA6C003B1DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKEyeSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shengkai.SKEyeSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKEyeSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD15AD01E9CCA6C003B1DA4 /* Build configuration list for PBXProject "SKEyeSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD15B001E9CCA6C003B1DA4 /* Debug */,
+				BCD15B011E9CCA6C003B1DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD15B021E9CCA6C003B1DA4 /* Build configuration list for PBXNativeTarget "SKEyeSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD15B031E9CCA6C003B1DA4 /* Debug */,
+				BCD15B041E9CCA6C003B1DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD15B051E9CCA6C003B1DA4 /* Build configuration list for PBXNativeTarget "SKEyeSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD15B061E9CCA6C003B1DA4 /* Debug */,
+				BCD15B071E9CCA6C003B1DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD15B081E9CCA6C003B1DA4 /* Build configuration list for PBXNativeTarget "SKEyeSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD15B091E9CCA6C003B1DA4 /* Debug */,
+				BCD15B0A1E9CCA6C003B1DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD15ACD1E9CCA6C003B1DA4 /* Project object */;
+}
