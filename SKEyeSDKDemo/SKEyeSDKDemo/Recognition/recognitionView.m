@@ -34,7 +34,7 @@
     [_scrollV addSubview:_pictureImgV];
     
     self.albumBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-    _albumBtn.frame = CGRectMake(43*matchW, CGRectGetMaxY(_pictureImgV.frame) , (self.frame.size.width - 86*matchW - 72*matchW)/2, 73*matchH);
+    _albumBtn.frame = CGRectMake(23*matchW, CGRectGetMaxY(_pictureImgV.frame) , (self.frame.size.width - 46*matchW - 32*matchW)/2, 83*matchH);
     UIImage *albumPic = [[UIImage imageNamed:@"icon_xiangce_a"] imageWithRenderingMode:(UIImageRenderingModeAlwaysOriginal)];
     [_albumBtn setImage:albumPic forState:UIControlStateNormal];
     _albumBtn.imageEdgeInsets = UIEdgeInsetsMake(21*matchH,0,20*matchH,0);
@@ -42,7 +42,7 @@
     [_scrollV addSubview:_albumBtn];
     
     self.cameraBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-    _cameraBtn.frame = CGRectMake(self.frame.size.width - 43*matchW-CGRectGetWidth(_albumBtn.frame), CGRectGetMinY(_albumBtn.frame), CGRectGetWidth(_albumBtn.frame), CGRectGetHeight(_albumBtn.frame));
+    _cameraBtn.frame = CGRectMake(self.frame.size.width - 23*matchW-CGRectGetWidth(_albumBtn.frame), CGRectGetMinY(_albumBtn.frame), CGRectGetWidth(_albumBtn.frame), CGRectGetHeight(_albumBtn.frame));
     UIImage *cameraPic = [[UIImage imageNamed:@"icon_xiangji_a"] imageWithRenderingMode:(UIImageRenderingModeAlwaysOriginal)];
     [_cameraBtn setImage:cameraPic forState:UIControlStateNormal];
     _cameraBtn.imageEdgeInsets = UIEdgeInsetsMake(21*matchH,0,20*matchH,0);
