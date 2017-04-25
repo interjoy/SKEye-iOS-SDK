@@ -124,7 +124,9 @@
             return ;
         }
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
+       
         NSLog(@"%@",dic);
+        
         [_recognitionV setUpResultViewWithResultArr:dic[@"tags"]];
         _recognitionV.jsonTextView.text = [NSString stringWithFormat:@"%@",dic];
     }];
