@@ -10,7 +10,6 @@ v1.0.0
 ###  使用步骤
 - 下载zip。
 - 在Xcode里新建工程，将SKEyeSDK.framework文件拷贝到工程的目录下，然后从SDK的保存目录拖拽到工程导航试图中的Frameworks虚拟目录下。调用时导入头文件：
-
 ```
 #import “SKEyeSDK/eyeTool.h”
 ```
