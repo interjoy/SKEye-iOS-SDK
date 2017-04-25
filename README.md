@@ -16,7 +16,7 @@ v1.0.0
 - SDK接口请求使用https协议，需要在项目info.plist中添加如下字段
 
 ![image](http://s13.sinaimg.cn/mw690/006jksDEzy7axSnpYRK1c&690)
-- 更多使用介绍请参考[SKEyeSDKDemo](https://github.com/interjoy/SKEye_iOS_SDK/tree/master/SKEyeSDKDemo)和 [《SKEye-iOS-SDK说明文档V1.0.0》](https://github.com/interjoy/SKEye_iOS_SDK/blob/master/SKEye-iOS-SDK说明文档V1.0.0.pdf)。
+- 更多使用介绍请参考[SKEyeSDKDemo](https://github.com/interjoy/SKEye-iOS-SDK/tree/master/SKEyeSDKDemo)和 [《SKEye-iOS-SDK说明文档V1.0.0》](https://github.com/interjoy/SKEye-iOS-SDK/blob/master/SKEye-iOS-SDK说明文档V1.0.0.pdf)。
 ###  调用示例
 ```
 + (void)SKEyeSDK_Image:(UIImage *)image service_name:
