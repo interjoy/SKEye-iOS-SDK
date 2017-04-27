@@ -27,10 +27,7 @@
     [self windowInit];
     
     // ****** SDK初始化 ******* //
-    //[eyeTool SKEyeSDK_InitWithApiKey:@"yourApiKey" apiSecret:@"yourApiSecret"];
-    [eyeTool SKEyeSDK_InitWithApiKey:@"1f771d21bd3e2257fe033de8e7565065" apiSecret:@"33a9888b32f2e53a66e90bd3708e9da3"];
-    
-//    [eyeTool SKEyeSDK_InitWithApiKey:@"51832dbe37310893213a2c490ce63a0e" apiSecret:@"4e24d05860ef64ce5840606388099ef4"];
+    [eyeTool SKEyeSDK_InitWithApiKey:@"yourApiKey" apiSecret:@"yourApiSecret"];
     return YES;
 }
 
