@@ -25,7 +25,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self windowInit];
-    
     // ****** SDK初始化 ******* //
     [eyeTool SKEyeSDK_InitWithApiKey:@"yourApiKey" apiSecret:@"yourApiSecret"];
     return YES;
