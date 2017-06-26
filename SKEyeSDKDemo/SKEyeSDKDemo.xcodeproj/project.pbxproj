@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC1DD36F1EEA79F300E75A77 /* SKEyeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1DD36E1EEA79F300E75A77 /* SKEyeSDK.framework */; };
+		BCBD55BB1F01098F00B6C170 /* SKEyeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBD55BA1F01098F00B6C170 /* SKEyeSDK.framework */; };
 		BCD15ADA1E9CCA6C003B1DA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD15AD91E9CCA6C003B1DA4 /* main.m */; };
 		BCD15AE31E9CCA6C003B1DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD15AE11E9CCA6C003B1DA4 /* Main.storyboard */; };
 		BCD15AE51E9CCA6C003B1DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD15AE41E9CCA6C003B1DA4 /* Assets.xcassets */; };
@@ -65,7 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC1DD36E1EEA79F300E75A77 /* SKEyeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKEyeSDK.framework; sourceTree = "<group>"; };
+		BCBD55BA1F01098F00B6C170 /* SKEyeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKEyeSDK.framework; sourceTree = "<group>"; };
 		BCD15AD51E9CCA6C003B1DA4 /* SKEyeSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKEyeSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD15AD91E9CCA6C003B1DA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCD15AE21E9CCA6C003B1DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC1DD36F1EEA79F300E75A77 /* SKEyeSDK.framework in Frameworks */,
+				BCBD55BB1F01098F00B6C170 /* SKEyeSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +144,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCBD55B91F01098F00B6C170 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				BCBD55BA1F01098F00B6C170 /* SKEyeSDK.framework */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
 		BCD15ACC1E9CCA6C003B1DA4 = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +175,7 @@
 		BCD15AD71E9CCA6C003B1DA4 /* SKEyeSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BC1DD36E1EEA79F300E75A77 /* SKEyeSDK.framework */,
+				BCBD55B91F01098F00B6C170 /* Libs */,
 				BCD15B0B1E9CCACC003B1DA4 /* AppDelegate */,
 				BCD15B0E1E9CCACC003B1DA4 /* First */,
 				BCD15B181E9CCACC003B1DA4 /* Recognition */,
@@ -613,6 +621,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SKEyeSDKDemo",
+					"$(PROJECT_DIR)/SKEyeSDKDemo/Libs",
 				);
 				INFOPLIST_FILE = SKEyeSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -630,6 +639,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SKEyeSDKDemo",
+					"$(PROJECT_DIR)/SKEyeSDKDemo/Libs",
 				);
 				INFOPLIST_FILE = SKEyeSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
