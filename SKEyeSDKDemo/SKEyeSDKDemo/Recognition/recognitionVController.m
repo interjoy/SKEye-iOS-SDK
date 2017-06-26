@@ -119,6 +119,7 @@
 }
 
 - (void)uploadWithImage:(UIImage *)image imagePath:(NSString*)imgPath{
+    
     [eyeTool SKEyeSDK_Image:image service_name:_serviceName callBack:^(id responseObject) {
         if (responseObject == nil) {
             return ;
@@ -128,6 +129,7 @@
         [_recognitionV setUpResultViewWithResultArr:dic[@"tags"]];
         _recognitionV.jsonTextView.text = [NSString stringWithFormat:@"%@",dic];
     }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
