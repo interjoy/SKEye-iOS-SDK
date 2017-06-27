@@ -3,6 +3,7 @@ SKEye-iOS-SDK for Object Recognition Service
 ###  更新日志
 v1.0.2
 - 优化识别接口
+
 v1.0.0
 - 发布常见物体识别、水果识别功能
 ###  目录介绍
