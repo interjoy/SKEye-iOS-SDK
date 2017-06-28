@@ -16,7 +16,7 @@ v1.0.0
 ```
 #import “SKEyeSDK/eyeTool.h”
 ```
-- 更多使用介绍请参考[SKEyeSDKDemo](https://github.com/interjoy/SKEye-iOS-SDK/tree/master/SKEyeSDKDemo)和 [《SKEye-iOS-SDK说明文档V1.0.0》](https://github.com/interjoy/SKEye-iOS-SDK/blob/master/SKEye-iOS-SDK说明文档V1.0.2.pdf)。
+- 更多使用介绍请参考[SKEyeSDKDemo](https://github.com/interjoy/SKEye-iOS-SDK/tree/master/SKEyeSDKDemo)和 [《SKEye-iOS-SDK说明文档V1.0.2》](https://github.com/interjoy/SKEye-iOS-SDK/blob/master/SKEye-iOS-SDK说明文档V1.0.2.pdf)。
 ###  调用示例
 ```
 + (void)SKEyeSDK_Image:(UIImage *)image service_name:
