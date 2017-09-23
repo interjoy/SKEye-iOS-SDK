@@ -17,13 +17,26 @@ typedef NSString SK_SERVICE_NAME;
 extern NSString *SERVICE_NAME_OBJECT;    // 常见物品识别服务名
 extern NSString *SERVICE_NAME_FRUITS;    // 水果识别服务名
 
-
 @interface eyeTool : NSObject
 
 /*
  * SDK初始化
  **/
 + (void)SKEyeSDK_InitWithApiKey:(NSString *)apiKey apiSecret:(NSString *)apiSecret;
+
+/*
+ * 上传图片数据
+ * 可携带参数imageId
+ * 回调方式
+ **/
++ (void)SKEyeSDK_ImageId:(NSString *)imageId image:(UIImage *)image service_name:(SK_SERVICE_NAME*)serviceName callBack:(void(^)(id responseObject))callBack;
+
+/*
+ * 上传本地路径或者URL指向图片
+ * 可携带参数imageId
+ * 回调方式
+ **/
++ (void)SKEyeSDK_ImageId:(NSString *)imageId imagePath:(NSString *)imagePath service_name:(SK_SERVICE_NAME*)serviceName callBack:(void(^)(id responseObject))callBack;
 
 /*
  * 上传图片数据

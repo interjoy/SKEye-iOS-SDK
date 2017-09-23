@@ -16,19 +16,19 @@
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [self windowInit];
-    
-    [eyeTool SKEyeSDK_InitWithApiKey:@"yourApiKey" apiSecret:@"yourApiSecret"];
-    
-    return YES;
-}
-
 - (void)windowInit{
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     [_window makeKeyAndVisible];
     _window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[firstVController alloc]init]];
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self windowInit];
+    
+    // ****** SDK初始化 ******* //
+    [eyeTool SKEyeSDK_InitWithApiKey:@"yourApiKey" apiSecret:@"yourApiSecret"];
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

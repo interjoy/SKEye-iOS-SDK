@@ -120,15 +120,35 @@
 
 - (void)uploadWithImage:(UIImage *)image imagePath:(NSString*)imgPath{
     
-    [eyeTool SKEyeSDK_Image:image service_name:_serviceName callBack:^(id responseObject) {
+    // ******* 1、上传图片-非回调 ******
+//    NSData *data = [eyeTool SKEyeSDK_Image:image service_name:_serviceName];
+//    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+//    NSLog(@"%@",dic);
+    
+
+    // ****** 2、上传图片（携带image_id）-回调 ******
+    [eyeTool SKEyeSDK_ImageId:@"1" image:image service_name:_serviceName callBack:^(id responseObject) {
         if (responseObject == nil) {
             return ;
         }
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
         NSLog(@"%@",dic);
+        NSString *imageId = dic[@"image_id"];
         [_recognitionV setUpResultViewWithResultArr:dic[@"tags"]];
         _recognitionV.jsonTextView.text = [NSString stringWithFormat:@"%@",dic];
     }];
+    
+    
+    // ****** 3、上传图片-回调 ******
+//    [eyeTool SKEyeSDK_Image:image service_name:_serviceName callBack:^(id responseObject) {
+//        if (responseObject == nil) {
+//            return ;
+//        }
+//        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
+//        NSLog(@"%@",dic);
+//        [_recognitionV setUpResultViewWithResultArr:dic[@"tags"]];
+//        _recognitionV.jsonTextView.text = [NSString stringWithFormat:@"%@",dic];
+//    }];
     
 }
 
